@@ -19,40 +19,88 @@
 		/*font-family: "Times New Roman";*/
 		 /*font-size: 20px;*/
 		   /*background-color: #e0ffff*/
+		   /*display: inline;*/
+		font-style: italic;
+		text-decoration: overline;
 		color:Green;
 		text-align:left;
-		font-size:40px;
+		font-size:30px;
 		font-family:broadway;
 	}
 	p2{
+		font-style: italic;
+		text-decoration: overline;
 		color:Green;
 		text-align:left;
-		font-size:40px;
+		font-size:30px;
 		font-family:broadway;
 	}
 	p3{
+		  /*padding-left: 15px;*/
+		font-style: italic;
+		text-decoration: overline;
 		color:Green;
 		text-align:left;
-		font-size:40px;
+		font-size:30px;
 		font-family:broadway;
 	}
 	ul{
-
+		/*padding: 0px;
+    	margin: 0px;*/
+		list-style-type: upper-roman
 		color:green;
 		text-align:left;
 		font-size:20px;
 		font-family:broadway;
 	}
-	li{
-		color:blue;
+	button{
+		/*background-color: #004A7F;*/
+		/*-webkit-border-radius: 10px;*/
+		/*border-radius: 10px;
+		border: none;
+		color: #FFFFFF;
+		cursor: pointer;
+		display: inline-block;
+		font-family: Arial;
+		font-size: 20px;
+		padding: 5px 10px;
+		text-align: center;
+		text-decoration: none;*/
+		/*cursor: pointer;*/
 	}
+	a{
+		/*background-color: black;*/
+		color: #FF0000;
+		text-decoration: none;
+	}
+	table{
+		/*border-spacing: 5px*/
+    	border: 4px solid green;
+    	border-collapse: collapse;
+	}
+	th{
+		text-align: center;
+	}
+	caption{
+		font-size:25px;
+		/*font-style: italic;*/
+		padding: 15px;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+	th, td {
+    	padding: 15px;
+	}
+	/*li{
+		color:blue;
+	}*/
 	</style>
 <head>
 	<title>this page is for youths</title>
 </head>
 <body >
 	<h1>here are some popular links..you can go where ever you like</h1>
-	<p1>these are some popular links for study</p1>
+	<p1>These are some popular links for study-</p1>
 	<ul>
 		<img src="images copy.jpeg" alt="study" width="304" height="142">
 		<li><button type="button" onclick="alert('are ready to go to this site!')"><a
@@ -67,7 +115,7 @@
 		 href = "http://learnenglish.britishcouncil.org/">Learn English</a></button></li>
 	</ul>
 	<br>
-	<p2>these are some popular links for social sites</p2>
+	<p2>These are some popular links for social sites-</p2>
 	<ul>
 		<img src="socialsites.jpg" alt="social" width="304" height="142">
 		<li><button type="button" onclick="alert('are you ready to go to this site!')"><a
@@ -82,7 +130,7 @@
 		 href = "https://www.instagram.com">Instagram</a></button></li>
 	</ul>
 	<br>
-	<p3>these are some popular links for entertainment</p3>
+	<p3>These are some popular links for entertainment-</p3>
 	<ul>
 		<img src="entertainment.jpg" alt="y" width="304" height="142">
 		<li><button type="button" onclick="alert('are you ready to go to this site!')"><a
@@ -97,7 +145,29 @@
 		 href = "http://muse.mu/music-video.htm">Music video</a></button></li>
 
 	</ul>
-	<table cellpadding="30" cellspacing="5" border="2">
+<table border='1' style="width:100%">
+	<caption>Some most used websites in specified company</caption>
+	<tr>
+	    <th>Country</th>
+	    <th>website</th> 
+	    <th>views</th>
+  	</tr>
+  	<tr>
+		<td>India</td>
+		<td>Facebook</td>		
+		<td>50,000,000</td>
+ 	</tr>
+  	<tr>
+	    <td>America</td>
+	    <td>Youtube</td>		
+	    <td>94,000,00</td>
+  	</tr>
+  	<tr>
+	    <td>China</td>
+	    <td>Santa-Banta</td>		
+	    <td>80,00,000</td>
+  	</tr>
+</table>
 
 </body>
 </html>
